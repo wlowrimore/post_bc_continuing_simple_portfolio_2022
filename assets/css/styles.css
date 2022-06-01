@@ -15,6 +15,7 @@ body {
 /* _______________________NAVBAR_______________________ */
 
 .navbar {
+  position: sticky; top: 0;
   background: #be3144;
 }
 
@@ -82,7 +83,9 @@ header p {
   font-weight: 100;
   letter-spacing: 4px;
   margin: 0;
-  padding: 40px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
 } 
 
 .projects-grid {
@@ -128,7 +131,7 @@ img {
   transition: .4s;
 }
 
-.show-me-more-btn {
+.view-more-btn {
   background: #000;
   text-align: center;
   padding: 10px 2px;
@@ -137,7 +140,7 @@ img {
   border-radius: 8px;
 }
 
-.show-me-more-btn:hover {
+.view-more-btn:hover {
   background: #6fb38c;
 }
 
@@ -145,4 +148,59 @@ img {
   font-size: 26px;
   font-weight: 100;
   letter-spacing: 3px;
+}
+
+/* _________________________CONTACT SECTION________________________ */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#contact {
+  display: flex;
+  text-align: center;
+  line-height: 0.5;
+}
+
+#contact h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+#contact p {
+  font-size: 26px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #be3144;
+  margin-bottom: 3em;
+}
+
+.contact-btn {
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-right: 4px;
+}
+
+.contact-btn:hover {
+  color: #be3144;
+  transition: .4s;
+  
+}
+
+span {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* ________________________FOOTER________________________ */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 8px 40px;
+  border-top: 4px solid #be3144;
 }
