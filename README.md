@@ -14,7 +14,7 @@ No matter how big or small, simple or complicated. I just simply WANT to continu
 <h3>Mobile:</h2><br>
 <img src="assets/images/ss-2.jpg" alt="screenshot"><br>
 
-<a href="" target="_bland" rel="noreferrer">See it on Github Pages</a><br>
+<a href="https://wlowrimore.github.io/post_bc_continuing_simple_portfolio_2022/" target="_bland" rel="noreferrer">See it on Github Pages</a><br>
 
 ## Languages Used:
 
