@@ -132,16 +132,21 @@ img {
 }
 
 .view-more-btn {
-  background: #000;
+  background: #be3144;
   text-align: center;
   padding: 10px 2px;
   width: 20em; 
   margin-bottom: 40px;
+  border: none;
   border-radius: 8px;
 }
 
 .view-more-btn:hover {
   background: #6fb38c;
+}
+
+button a:hover {
+  color: #fff;
 }
 
 .btn-txt {
@@ -200,7 +205,142 @@ span {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 40px 8px 40px;
   border-top: 4px solid #be3144;
+}
+
+.footer-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.copy {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: 24rem;
+}
+
+/* _____________________MEDIA QUERIES_____________________ */
+
+@media screen and (max-width: 1275px) {
+
+  .navbar {
+    background: seagreen;
+  }
+
+  .nav-list {
+    padding: 0;
+  }
+
+  .navbar li {
+    margin: 0;
+    margin-right: 12px;
+  }
+
+  /* ------------------------ */
+
+  .welcome-section {
+    height: 300px;
+  }
+
+  header h1 {
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 4px;
+  }
+
+  header p {
+    color: seagreen;
+    font-size: 18px;
+  }
+
+  /* ------------------------- */
+
+  .projects-section-header {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 4px;
+    border: none;
+  }
+
+  .view-more-btn {
+    width: 160px;
+  }
+
+  .btn-txt {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  /* -------------------------- */
+
+  .contact-section {
+    height: 370px;
+  }
+
+  #contact h1 {
+    font-size: 36px;
+    line-height: 2.5rem;
+    margin-bottom: 12px;
+  }
+
+  #contact p {
+    color: seagreen;
+    font-size: 18px;
+    margin-bottom: 30px; 
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-btn {
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 7px;
+  }
+  
+  span {
+    font-size: 16px;
+  }
+
+/* ------------------------------ */
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: 4px solid seagreen;
+    font-size: 14px;
+    height: 80px;
+    padding-left: 40px;
+    padding: 12px;
+  }
+
+  .footer-text {
+    display: flex;
+    line-height: 18px;
+    justify-content: center;
+  }
+  
+  footer p {
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .copy {
+    padding-bottom: 14px;
+  }
 }
